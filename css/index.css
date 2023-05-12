@@ -1,0 +1,237 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff url('../imagem/bg.png');
+	margin: 15px;
+	font-family: "TREBUCHET MS", Helvetica, sans-serif;
+
+}
+/*Trebuchet MS*/
+ul {
+	list-style-type: none;
+}
+
+#container {
+	background: #ede9cc url('../imagem/bg-container.png') top center repeat-y;
+	margin: 0 auto;
+	min-width: 740px;
+	max-width: 1180;
+	
+
+}
+
+/*inicio do topo da página*/
+
+#topo {
+	background: #dbc287;
+	height: 15.4em;
+	min-height: 250px;
+	position: relative;
+	background: ..;
+	z-index: 1;
+}
+
+#logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: url('../imagem/topo-imagem-principal.png')no-repeat;
+	width: 85%;
+	height: 250px;
+	z-index: 2;
+}
+.logo a {
+	background: url('../imagem/logo.png') no-repeat;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	z-index: 3;
+	width: 151px;
+	height: 66px;
+	text-indent: -4000px;
+}
+
+
+
+#menu {
+	position:absolute ;
+	background: url('../imagem/topo-imagem-lateral.png') no-repeat;
+
+	right: 0;
+	top: 0;
+	
+	width: 598px;
+	height: 250px;
+	z-index: 3;
+}
+
+#area-menu {
+	margin-left: 90px;
+	padding-top: 15px;
+	margin-right: 15px;
+}
+
+#locais-menu {
+	border-top: 1px solid #b5ab56;
+	border-bottom: 1px solid #b5ab56;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 0.7;
+	color: #8b8448;	
+
+
+}
+
+#locais-menu .locais {
+	float: left;
+	line-height: 2.1em;
+
+
+}
+#locais-menu a {
+	margin-top: 3px;
+}
+a {
+	text-decoration: none;
+}
+
+a.reserva {
+	text-transform: uppercase;
+	background: #a29750;
+	color: #fff5b0;
+	padding: 5px 10px;
+	float: right;
+}
+
+#menu-vertical {
+	margin-top: 15px;
+
+}
+
+#menu-vertical a {
+	line-height: 30px;
+	color: #8b8448;
+	padding: 5px;
+
+}
+
+
+
+#depoimento {
+	
+	position: absolute;
+	right: 150px;
+	top: 70px;
+	z-index: 3;
+	
+	
+	
+	/*background: url('../imagem/depoimento.png') no-repeat;
+	z-index: 4;
+	width: 226;
+	height: 164;*/
+
+}
+#menu-vertical a:hover
+  {
+	background: #f7f5e7;
+    }
+#locais-menu a:hover {
+	background: #f7f5e7;
+	color:#8b8448 ;
+}
+
+#menu-vertical {
+	text-transform: uppercase;
+}
+/*fim do topo da página*/
+/*corpo da página*/
+#area-conteudo {
+	
+
+}
+
+#area-principal {
+	width: 50%;
+	background: url('../imagem/bg-area-principal.png') repeat-x;
+	float: left;
+
+	
+	
+}
+
+#area-lateral {
+	width: 50%;
+	background: url('../imagem/bg-area-lateral.png') repeat-x;
+	float: right;
+
+
+
+}
+
+
+
+.conteudo {
+	width: 90%;
+	padding-top: 5px;
+	padding: 7px;
+	margin: 0 auto;
+	
+
+}
+/*formatações de texto*/
+p {
+   margin-bottom: 5px;
+}
+
+h2 {
+	font-size: 1.3em;
+	color: #7d7640;
+	padding: 10px 0;
+	
+}
+
+/*area lateral */
+ul#vantagens {
+	margin-top: 15px;
+}
+#vantagens li {
+	height: 6em;
+	padding: 8px;
+	border-bottom: 1px solid #f3efcb;
+}
+#vantagens img {
+	float: left;
+	margin-right: 8px;
+}
+#vantagens p {
+	font-size: 0.8em;
+	color: black;
+}
+
+#vantagens  li h3 {
+	color:#615b2d ;
+	font-size: 1em;
+	background: url('../imagem/ornamento.png') center right no-repeat;
+	
+
+}
+#vantagens li:hover {
+	background:#f6f3d6;
+	cursor: pointer;
+}
+
+#rodape {
+	clear: both;
+	background: url('../imagem/bg-rodape.png')top center repeat-x;
+	padding: 5px;
+	color: #7d7640;
+
+}
+
+
+
+
